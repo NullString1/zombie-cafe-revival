@@ -60,5 +60,12 @@ JNIEXPORT jint JNICALL JNI_OnLoad(JavaVM* vm, void* reserved) {
   Memory::setProtection((void*)(base + 0xab018), 50, PROT_READ | PROT_WRITE | PROT_EXEC);
   *(char*)(base + 0x000ab018) = 0xb8;
   Memory::setNop((char*)(base + 0x000ab01a), 2);
+  
+  // Patch to set getToxin to always return 100 (0x64)
+  Memory::setProtection((void*)(base + 0x0011fca0), 16, PROT_READ | PROT_WRITE | PROT_EXEC);
+  *(char*)(base + 0x00011fca0) = 0x64;
+  *(char*)(base + 0x00011fca0 + 1) = 0x20;
+  *(char*)(base + 0x00011fca0 + 2) = 0x00;
+  *(char*)(base + 0x00011fca0 + 3) = 0x46;
   return JNI_VERSION_1_4;
 }
