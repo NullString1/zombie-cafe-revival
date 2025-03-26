@@ -57,9 +57,9 @@ JNIEXPORT jint JNICALL JNI_OnLoad(JavaVM* vm, void* reserved) {
     000ab018  d623       movs    r3, #0xd6    <-- change this offset to 0xb8
     000ab01a  5b00       lsls    r3, r3, #1   <-- prevent this leftshift
   */
-  Memory::setProtection((void*)(base + 0xab018), 50, PROT_READ | PROT_WRITE | PROT_EXEC);
-  *(char*)(base + 0x000ab018) = 0xb8;
-  Memory::setNop((char*)(base + 0x000ab01a), 2);
+  //Memory::setProtection((void*)(base + 0xab018), 50, PROT_READ | PROT_WRITE | PROT_EXEC);
+  //*(char*)(base + 0x000ab018) = 0xb8;
+  //Memory::setNop((char*)(base + 0x000ab01a), 2);
   
   // Patch to set getToxin to always return 100 (0x64)
   Memory::setProtection((void*)(base + 0x0011fca0), 16, PROT_READ | PROT_WRITE | PROT_EXEC);
