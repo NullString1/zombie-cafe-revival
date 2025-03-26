@@ -6338,7 +6338,7 @@
     {
         "UnlockLevel": 0,
         "Name": "Expand to 8x7",
-        "Price": 3500,
+        "Price":90,
         "PurchaseWithToxin": false,
         "SizeX": 8,
         "SizeY": 7,
@@ -6370,7 +6370,7 @@
     {
         "UnlockLevel": 0,
         "Name": "Expand to 9x8",
-        "Price": 25000,
+        "Price":90,
         "PurchaseWithToxin": false,
         "SizeX": 9,
         "SizeY": 8,
@@ -6402,7 +6402,7 @@
     {
         "UnlockLevel": 0,
         "Name": "Expand to 9x8",
-        "Price": 10,
+        "Price":90,
         "PurchaseWithToxin": true,
         "SizeX": 9,
         "SizeY": 8,
@@ -6434,7 +6434,7 @@
     {
         "UnlockLevel": 0,
         "Name": "Expand to 10x9",
-        "Price": 75000,
+        "Price":90,
         "PurchaseWithToxin": false,
         "SizeX": 10,
         "SizeY": 9,
@@ -6466,7 +6466,7 @@
     {
         "UnlockLevel": 0,
         "Name": "Expand to 10x9",
-        "Price": 30,
+        "Price":90,
         "PurchaseWithToxin": true,
         "SizeX": 10,
         "SizeY": 9,
@@ -6498,7 +6498,7 @@
     {
         "UnlockLevel": 0,
         "Name": "Expand to 11x10",
-        "Price": 100000,
+        "Price":90,
         "PurchaseWithToxin": false,
         "SizeX": 11,
         "SizeY": 10,
@@ -6530,7 +6530,7 @@
     {
         "UnlockLevel": 0,
         "Name": "Expand to 11x10",
-        "Price": 40,
+        "Price":90,
         "PurchaseWithToxin": true,
         "SizeX": 11,
         "SizeY": 10,
@@ -7554,7 +7554,7 @@
     {
         "UnlockLevel": 0,
         "Name": "Expand to 12x11",
-        "Price": 120000,
+        "Price":90,
         "PurchaseWithToxin": false,
         "SizeX": 12,
         "SizeY": 11,
@@ -7586,7 +7586,7 @@
     {
         "UnlockLevel": 0,
         "Name": "Expand to 12x11",
-        "Price": 50,
+        "Price":90,
         "PurchaseWithToxin": true,
         "SizeX": 12,
         "SizeY": 11,
@@ -8418,7 +8418,7 @@
     {
         "UnlockLevel": 0,
         "Name": "Expand to 13x12",
-        "Price": 150000,
+        "Price":90,
         "PurchaseWithToxin": false,
         "SizeX": 13,
         "SizeY": 12,
@@ -8994,7 +8994,7 @@
     {
         "UnlockLevel": 0,
         "Name": "Expand to 13x12",
-        "Price": 50,
+        "Price":90,
         "PurchaseWithToxin": true,
         "SizeX": 13,
         "SizeY": 12,
@@ -9026,7 +9026,7 @@
     {
         "UnlockLevel": 0,
         "Name": "Expand to 14x13",
-        "Price": 150000,
+        "Price":90,
         "PurchaseWithToxin": false,
         "SizeX": 14,
         "SizeY": 13,
@@ -9058,7 +9058,7 @@
     {
         "UnlockLevel": 0,
         "Name": "Expand to 14x13",
-        "Price": 50,
+        "Price":90,
         "PurchaseWithToxin": true,
         "SizeX": 14,
         "SizeY": 13,
@@ -14242,7 +14242,7 @@
     {
         "UnlockLevel": 0,
         "Name": "Expand to 15x14",
-        "Price": 150000,
+        "Price":90,
         "PurchaseWithToxin": false,
         "SizeX": 15,
         "SizeY": 14,
@@ -14274,7 +14274,7 @@
     {
         "UnlockLevel": 0,
         "Name": "Expand to 15x14",
-        "Price": 50,
+        "Price":90,
         "PurchaseWithToxin": true,
         "SizeX": 15,
         "SizeY": 14,
